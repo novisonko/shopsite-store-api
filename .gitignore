@@ -1,4 +1,5 @@
 app/sonkotek.php.lib
+vendor/
 composer.phar
 config.php
 *.dat
