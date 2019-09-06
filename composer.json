@@ -1,0 +1,20 @@
+{
+    "name": "sonkotek/shopsiteserver_v2",
+    "description": "Shopsite store api server V2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Novi Sonko",
+            "email": "novisonko@sonkotek.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+              "Sonkotek\\": "app/sonkotek.php.lib/",
+              "Sonkotek\\Data\\": "app/sonkotek.php.lib/data",
+              "Sonkotek\\Service\\": "app/model/service"
+          }
+      }
+}
